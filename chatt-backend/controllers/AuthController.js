@@ -15,22 +15,22 @@ import worker from '../worker.js';
  *       properties:
  *         email:
  *           type: string
- *           description: user email
+ *           description: User email
  *     userId:
  *       type: object
  *       properties:
  *         userId:
  *           type: string
- *           description: unique id of the user requesting password reset
+ *           description: Unique id of the user requesting password reset
  *     userLogin:
  *       type: object
  *       properties:
  *         userId:
  *           type: string
- *           description: user's id
+ *           description: User's id
  *         username:
  *           type: string
- *           description: username of logged in user
+ *           description: Username of logged in user
  *         token:
  *           type: string
  *           description: jwt token for authorization
@@ -39,10 +39,10 @@ import worker from '../worker.js';
  *       properties:
  *         userId:
  *           type: string
- *           description: user's id
+ *           description: User's id
  *         otp:
  *           type: string
- *           description: otp to be used to verify user before reseting password
+ *           description: OTP to be used to verify user before reseting password
  *         password:
  *           type: string
  *           description: new password to be used
